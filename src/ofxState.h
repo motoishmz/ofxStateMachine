@@ -75,6 +75,8 @@ namespace itg
 		
 		virtual void keyPressed(int key) {}
 		virtual void keyReleased(int key) {}
+		
+		virtual void dragEvent(ofDragInfo & drag) {}
 #endif
 		void changeState(string stateName)
 		{
